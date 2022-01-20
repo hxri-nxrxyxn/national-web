@@ -18,12 +18,16 @@
 	align-items: center;
 }
 .link__line a {
-	color: #ff6b6b;
-	font-size: 5rem;
+	color: #576574;
+	font-size: 2rem;
 	flex: 1;
+	transition: color ease 0.3s;
+}
+.link__line a:hover {
+	color: #222f3e
 }
 .link__line span {
-	font-size: 5rem;
+	font-size: 2rem;
 	padding-top: 2.5rem;
 	flex: 1;
 }
