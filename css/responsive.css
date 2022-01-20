@@ -44,4 +44,11 @@
 	.gallery__column {
 		flex-direction: column;
 	}
+	.link__container {
+		flex-direction: column;
+
+	}
+	.link__column:not(:first-child) {
+		padding-top: 10px;
+	}
 }
