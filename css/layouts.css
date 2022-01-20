@@ -20,7 +20,7 @@
 	color: #ff6b6b;
 }
 .header__nav--2 a:last-child{
-	background-color: #8395a7;
+	background-color: #c8d6e5;
 	color: #222f3e;
 	padding: 1rem 2rem;
 	border-radius: 50px;
@@ -28,7 +28,7 @@
 	transition: background-color ease 0.3s;
 }
 .header__nav--2 a:last-child:hover{
-	background-color: #c8d6e5;
+	background-color: #576574;
 }
 
 /*dropdown*/
