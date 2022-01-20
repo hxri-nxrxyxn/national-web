@@ -1,0 +1,28 @@
+/*root*/
+::selection {
+	background-color: transparent;
+	color: #333;
+}
+
+/*others*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+html {
+	font-size: 10px;
+}
+body {
+	background-color: #c8d6e5;
+}
+a {
+	text-decoration: none;
+}
+
+.everything {
+	max-width: 80vw;
+	height: auto;
+	margin: 0 auto;
+}

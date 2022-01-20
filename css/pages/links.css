@@ -1,0 +1,29 @@
+#link {
+
+}
+.link__container {
+	display: flex;
+	justify-content: space-between;
+}
+.link__column {
+	display: flex;
+	flex-direction: column;
+}
+.link__column h3 {
+	color: #222f3e;
+}
+.link__line {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.link__line a {
+	color: #ff6b6b;
+	font-size: 5rem;
+	flex: 1;
+}
+.link__line span {
+	font-size: 5rem;
+	padding-top: 2.5rem;
+	flex: 1;
+}

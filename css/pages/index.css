@@ -1,0 +1,25 @@
+/*gallery*/
+.gallery__container img {
+	width: 20rem;
+	height: 20rem;
+	opacity: .5;
+	transition: all ease 0.3s;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.gallery__container--row1 {
+	margin: auto;
+}
+.gallery__container img:hover {
+	width: 50%;
+	opacity: 1;
+}
+
+/*aim*/
+.aim__container {
+	display: flex;
+	justify-content: space-between;
+}
+.aim__container * {
+	flex-basis: 45%;
+}

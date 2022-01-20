@@ -1,0 +1,67 @@
+/*FONTS*/
+.f__headline--1 {
+	font-family: 'Bebas Neue';
+ 	font-size: 7.3rem;
+ 	letter-spacing: -1.5px;
+}
+.f__headline--2 {
+	font-family: 'Bebas Neue';
+ 	font-size: 4.6rem;	
+ 	letter-spacing: -0.5px;
+}
+.f__headline--3 {
+	font-family: 'Bebas Neue';
+ 	font-size: 3.6rem;	
+ 	letter-spacing: 0;
+}
+.f__body--1 {
+	font-family: 'Montserrat';
+	font-size: 1.6rem;
+	letter-spacing: 0.5px;
+}
+.f__body--2 {
+	font-family: 'Montserrat';
+	font-size: 1.4rem;
+	letter-spacing: 0.25px;
+}
+.f__body--m1{
+	font-family: 'Merriweather';
+	font-size: 2rem;
+	letter-spacing: 0.5px;
+	color: #576574;
+	text-align: justify;
+}
+.f__button {
+	font-family: 'Montserrat';
+	font-size: 1.4rem;
+	letter-spacing: 1.25px;	
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+
+
+/*others*/
+.heading {
+	color: #222f3e;
+	margin-bottom: 5rem 0;
+}
+.clearfix {
+	content: "";
+	clear: both;
+	display: table;
+}
+.page {
+	padding: 5rem 0;
+	border-bottom: 1px solid #8395a7;
+}
+.button {
+	color: #c8d6e5;
+	background-color: #222f3e;
+	padding: 1rem 2rem;
+	border-radius: 5rem;
+	transition: background-color ease 0.3s;
+}
+.button:hover {
+	background-color: #ff6b6b;
+}
