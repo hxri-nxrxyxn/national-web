@@ -73,4 +73,7 @@
 	.teachers__column {
 		display: block !important;
 	}
+	.link__container {
+		display: block;
+	}
 }
