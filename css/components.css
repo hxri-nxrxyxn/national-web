@@ -65,3 +65,19 @@
 .button:hover {
 	background-color: #ff6b6b;
 }
+
+.fixed {
+	position: fixed;
+	bottom: 5rem;
+	right: 5rem;
+}
+.fixed span {
+	padding: 1rem;
+	border-radius: 50%;
+	color: #222f3e;
+	transition: background-color 0.3s ease;
+}
+.fixed span:hover {
+	background-color: #222f3e;
+	color: #c8d6e5;
+}
