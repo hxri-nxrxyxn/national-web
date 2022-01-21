@@ -1,15 +1,15 @@
-.teachers__container {
+.staff__container {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 	min-height: 100vh;
 }
-.teachers__row {
+.staff__row {
 	display: flex;
 	padding: 5rem 0;
 	justify-content: space-between;
 }
-.teachers__column {
+.staff__column {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 22.5%;
