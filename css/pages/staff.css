@@ -12,8 +12,18 @@
 .staff__column {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 22.5%;
-	padding: 2rem 0;
+	flex-basis: 20%;
+	padding: 2rem;
+	border: 1px solid transparent;
+	border-radius: 2rem;
+	transition: all ease 0.3s;
+}
+.staff__column:hover {
+	border: 1px solid #8395a7;
+	background-color: #8395a755;
+}
+.staff__column p{
+	text-align: left;
 }
 
 /*extra*/
