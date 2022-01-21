@@ -1,11 +1,11 @@
 home
 bgimage
 
-remove aim
+//remove aim//
 
 mission - new sentence
 
-change teachers to staff
+//change teachers to staff//
 +lab assistants
 +retired (add teachers)
 arjun mash order
@@ -17,4 +17,4 @@ nav change higher educations - further studies
 links heading size
 change links
 history - kanchana mv
-add admini maybe replace aim
+//add admini maybe replace aim//
