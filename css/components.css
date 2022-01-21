@@ -66,6 +66,7 @@
 	background-color: #ff6b6b;
 }
 
+/*scroll-up-button*/
 .fixed {
 	position: fixed;
 	bottom: 5rem;
@@ -80,4 +81,14 @@
 .fixed span:hover {
 	background-color: #222f3e;
 	color: #c8d6e5;
+}
+
+.effect {
+	border: 1px solid transparent;
+	border-radius: 2rem;
+	transition: background-color ease 0.3s;
+}
+.effect:hover {
+	background-color: #8395a755;
+	border: 1px solid #8395a7;
 }

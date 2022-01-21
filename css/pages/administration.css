@@ -12,31 +12,32 @@
 .administration__row {
 	display: flex;
 	justify-content: space-between;
-	padding: 5rem 0;
+	padding: 2rem 0;
 }
 .administration__column {
-	border: 1px solid #8395a7;
-	border-radius: 2rem;
 	flex-basis: 30%;
-	transition: background-color ease 0.3s;
+	padding: 2rem;
 }
 .administration__column:hover {
 	background-color: #8395a755;
+	border: 1px solid #8395a7;
 }
 .administration__column:hover img {
 	opacity: 1;
 }
 .administration__column img {
-	border-top-left-radius: 2rem;
-	border-top-right-radius: 2rem;
-	width: 100%;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	width: 20rem;
 	height: 20rem;
 	object-fit: cover;
 	opacity: 0.7;
 	transition: opacity ease 0.3s;
+	margin-bottom: 2rem;
 }
-.administration__text {
-	padding: 2rem;
+.administration__text *{
+	text-align: center;
 }
 
 
