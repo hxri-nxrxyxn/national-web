@@ -53,21 +53,21 @@
 	.header__main p {
 		padding-bottom: 2.5rem
 	}
-	.teachers__container {
+	.staff__container {
 		display: block;
 		height: auto;
 	}
-	.teachers__row {
+	.staff__row {
 		display: block !important;
 		padding: 0 !important;
 	}
-	.teachers__column:not(:last-child) {
+	.staff__column:not(:last-child) {
 		margin-bottom: 5rem;
 	}
-	.teachers__row:not(:last-child) {
+	.staff__row:not(:last-child) {
 		margin-bottom: 5rem;
 	}
-	.teachers__column {
+	.staff__column {
 		display: block !important;
 	}
 	.link__container {
