@@ -25,4 +25,5 @@ a {
 	max-width: 80vw;
 	height: auto;
 	margin: 0 auto;
+	position: relative;
 }

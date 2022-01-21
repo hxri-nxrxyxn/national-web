@@ -22,9 +22,8 @@
 	flex: 1;
 	transition: color ease 0.3s;
 }
-.link__line a:hover {
-	color: #222f3e;
-	display: inline-block;
+.link__line i:hover {
+	color: #ff6b6b;
 }
 .link__line span {
 	font-size: 1.25rem;

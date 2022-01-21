@@ -1,0 +1,36 @@
+.teachers__name {
+	display: flex;
+	justify-content: space-between;
+}
+.teachers__name p {
+	flex: 45%;
+}
+#teachers {
+	min-height: 100vh;
+}
+.teachers__container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.teachers__row {
+	display: flex;
+	padding: 5rem 0;
+	justify-content: space-between;
+}
+.teachers__column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 30%;
+}
+.teachers__column p{
+	text-align: left;
+}
+.teachers__column h2 {
+	color: #222f3e;
+}
+
+/*extra*/
+.header {
+	background-image: linear-gradient(#222f3edd,#222f3edd), url(../../img/6.jpg) !important;
+}
