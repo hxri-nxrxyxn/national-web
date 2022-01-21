@@ -41,9 +41,6 @@
 	.gallery__column:not(:last-child) {
 		margin-bottom: 5rem;
 	}
-	.gallery__column {
-		flex-direction: column;
-	}
 	.link__container {
 		flex-direction: column;
 	}
