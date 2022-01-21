@@ -22,7 +22,7 @@
 	transition: background-color ease 0.3s;
 }
 .gallery__column:hover {
-	background-color: #8395a7;
+	background-color: #8395a755;
 }
 .gallery__column:hover img {
 	opacity: 1;
