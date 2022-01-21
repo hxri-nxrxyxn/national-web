@@ -1,9 +1,7 @@
-#link {
-
-}
 .link__container {
 	display: flex;
 	justify-content: space-between;
+	min-height: 100vh
 }
 .link__column {
 	flex-basis: 30%;
@@ -20,10 +18,12 @@
 }
 .link__line a {
 	flex: 1;
+}
+.link__line i {
 	transition: color ease 0.3s;
 }
 .link__line i:hover {
-	color: #ff6b6b;
+	color: #222f3e;
 }
 .link__line span {
 	font-size: 1.25rem;
