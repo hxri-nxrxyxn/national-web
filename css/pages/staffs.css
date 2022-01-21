@@ -1,17 +1,8 @@
-.teachers__name {
-	display: flex;
-	justify-content: space-between;
-}
-.teachers__name p {
-	flex: 45%;
-}
-#teachers {
-	min-height: 100vh;
-}
 .teachers__container {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
+	min-height: 100vh;
 }
 .teachers__row {
 	display: flex;
@@ -21,13 +12,8 @@
 .teachers__column {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 20%;
-}
-.teachers__column p{
-	text-align: left;
-}
-.teachers__column h2 {
-	color: #222f3e;
+	flex-basis: 22.5%;
+	padding: 2rem 0;
 }
 
 /*extra*/
