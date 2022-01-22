@@ -15,6 +15,6 @@ change news with magazine
 add alumni (school)
 //nav change higher educations - further studies//
 links heading size
-change links
+//change links
 history - kanchana mv
 //add admini maybe replace aim//
