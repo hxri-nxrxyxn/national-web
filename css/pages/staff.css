@@ -16,11 +16,8 @@
 .staff__column {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 20%;
+	flex-basis: 30%;
 	padding: 2rem;
-}
-.staff__column p{
-	text-align: left;
 }
 
 /*extra*/
