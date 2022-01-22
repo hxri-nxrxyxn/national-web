@@ -16,7 +16,11 @@ add alumni (school)
 //nav change higher educations - further studies//
 //links heading size
 change links
+<<<<<<< HEAD
 //links heading size
+=======
+links heading size
+>>>>>>> 9b7c5362edb1db2ba40ebedffa96f71752517800
 //change links
 history - kanchana mv
 //add admini maybe replace aim//
