@@ -8,13 +8,18 @@ mission - new sentence
 //change teachers to staff//
 +lab assistants
 +retired (add teachers)
-arjun mash order
+//arjun mash order
 late sinitr
 p education - last
 //change news with magazine
 add alumni (school)
 //nav change higher educations - further studies//
+<<<<<<< HEAD
 //links heading size
 change links
+=======
+links heading size
+//change links
+>>>>>>> 8efae5bb6fe5530a2bae68ae975c75351ec0d14c
 history - kanchana mv
 //add admini maybe replace aim//
