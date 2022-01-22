@@ -7,9 +7,6 @@
 	display: flex;
 	flex-direction: column;
 }
-.link__column h3 {
-	color: #222f3e;
-}
 .link__line {
 	display: flex;
 	justify-content: center;
