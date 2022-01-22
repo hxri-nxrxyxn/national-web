@@ -9,6 +9,10 @@
 	padding: 2rem 0;
 	justify-content: space-between;
 }
+
+.staff__row:last-child {
+	justify-content: space-around;
+}
 .staff__column {
 	display: flex;
 	flex-direction: column;
