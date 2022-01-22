@@ -8,7 +8,7 @@ mission - new sentence
 //change teachers to staff//
 +lab assistants
 +retired (add teachers)
-arjun mash order
+//arjun mash order
 late sinitr
 p education - last
 change news with magazine
