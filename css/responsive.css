@@ -83,4 +83,13 @@
 	.magazine__container iframe {
 		margin-bottom: 5rem;
 	}
+	.administration__container{
+		display: block !important;
+	}
+	.administration__row{
+		display: block !important;
+	}
+	.administration__column:not(:last-child) {
+		margin-bottom: 5rem;
+	}
 }
