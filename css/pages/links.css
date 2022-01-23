@@ -3,31 +3,24 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
-.link__row--1, .link__row--2 {
-	display: flex;
-}
 .link__row--1 {
-	padding-bottom: 2rem;
+	display: flex;
 	justify-content: space-between;
+	margin-bottom: 5rem;
+}
+.link__row--1 .link__column {
+	flex-basis: 45%;
+	padding: 2rem;
 }
 .link__row--2 {
-	display: flex;
-	flex-direction: column;
-}
-.link__row--2 h2 {
-	padding: 2rem 0 0 2rem;
-}
-.link_row--2 .link_column {
-	padding: 0 !important;
-}
-.link__columns {
-	display: flex;
-}
-.link__column {
-	flex-basis: 45%;
-	display: flex;
-	flex-direction: column;
 	padding: 2rem;
+}
+.link__row--2 .link__columns{
+	display: flex;
+	justify-content: space-between;
+}
+.link__row--2 .link__columns .link__column {
+	flex-basis: 45%;
 }
 .link__line {
 	display: flex;
