@@ -12,4 +12,3 @@ National Higher Secondary School, Irinjalakuda © 2022
 
 Hari Narayan M R
 Athul S Menon
-Syed Farhan
