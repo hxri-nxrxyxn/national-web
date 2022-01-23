@@ -1,0 +1,11 @@
+.magazine__container {
+	display: flex;
+	justify-content: space-between;
+}
+.magazine__container iframe {
+	height: 40rem;
+	flex-basis: 60%;
+}
+.magazine__container p {
+	flex-basis: 30%;
+}

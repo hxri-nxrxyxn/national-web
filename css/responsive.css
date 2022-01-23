@@ -67,4 +67,20 @@
 	.link__container {
 		display: block;
 	}
+	.link__row--1 {
+		display: block !important;
+		margin-bottom: 0 !important;
+	}
+	.link__row--1 .link__column {
+		margin-bottom: 5rem;
+	}
+	.link__row--2 .link__columns {
+		display: block !important;
+	}
+	.magazine__container {
+		display: block !important;
+	}
+	.magazine__container iframe {
+		margin-bottom: 5rem;
+	}
 }
