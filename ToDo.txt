@@ -5,6 +5,6 @@ bgimage
 
 mission - new sentence
 
-change lorem ipsum- magazine, administration, read more, staff
+change lorem ipsum- magazine, administration, read more, staff, links
 
 change bg of header-links, staff, administration
