@@ -74,6 +74,9 @@
 	.link__row--1 .link__column {
 		margin-bottom: 5rem;
 	}
+	.link__row--2 .link__column:not(:last-child) {
+		margin: 2rem 0;	
+	}
 	.link__row--2 .link__columns {
 		display: block !important;
 	}
