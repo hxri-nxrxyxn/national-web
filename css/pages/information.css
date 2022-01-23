@@ -6,8 +6,10 @@
 }
 .information__row {
 	display: flex;
-	padding: 5rem 0;
 	justify-content: space-between;
+}
+.information__row:not(:last-child) {
+	margin-bottom: 5rem;
 }
 .information__column {
 	display: flex;
