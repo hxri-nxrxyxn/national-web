@@ -5,6 +5,7 @@
 .magazine__container iframe {
 	height: 40rem;
 	flex-basis: 60%;
+	border-radius: 2rem;
 }
 .magazine__container p {
 	flex-basis: 30%;
