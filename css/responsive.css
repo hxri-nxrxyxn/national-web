@@ -8,8 +8,8 @@
 	.aim__container {
 		flex-direction: column;
 	}
-	.aim__container *:not(:first-child){
-		margin-top: 5%;
+	.aim__container div:not(:last-child){
+		margin-bottom: 5rem;
 	}
 	.information__container {
 		display: block !important;
