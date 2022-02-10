@@ -6,8 +6,10 @@
 }
 .information__row {
 	display: flex;
-	padding: 5rem 0;
 	justify-content: space-between;
+}
+.information__row:not(:last-child) {
+	margin-bottom: 5rem;
 }
 .information__column {
 	display: flex;
@@ -24,5 +26,5 @@
 
 /*extra*/
 .header {
-	background-image: linear-gradient(#222f3edd,#222f3edd), url(../../img/6.jpg) !important;
+	background-image: linear-gradient(#222f3edd,#222f3edd), url(../../img/n2.jpg) !important;
 }

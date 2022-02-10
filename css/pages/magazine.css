@@ -1,0 +1,17 @@
+.magazine__container {
+	display: flex;
+	justify-content: space-between;
+}
+.magazine__container iframe {
+	height: 40rem;
+	flex-basis: 60%;
+	border-radius: 2rem;
+}
+.magazine__container p {
+	flex-basis: 30%;
+}
+
+/*extra*/
+.header {
+	background-image: linear-gradient(#222f3edd,#222f3edd), url(../../img/n7.jpg) !important;
+}
