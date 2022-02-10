@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Loading...</title>
+    <style>
+        .l-wrapper {
+          height: 100vh;
+          display: flex;
+        }
+
+        .loading {
+            position: relative;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .loading::after {
+            content: "";
+            width: 40px;
+            height: 40px;
+            background: #a3a3a3;
+            opacity: 0.5;
+            border-radius: 50%;
+            animation: loading 1s ease infinite;
+        }
+
+        @keyframes loading {
+            to {
+                opacity: 1;
+                transform: scale(2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="l-wrapper">
+        <div class="loading loading--full-height"></div>
+    </div>
+</body>
+</html>
