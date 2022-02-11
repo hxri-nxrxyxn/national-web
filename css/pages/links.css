@@ -3,6 +3,9 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
+.link__row--1 h2, .link__row--2 h2 {
+	padding-bottom: 1rem;
+}
 .link__row--1 {
 	display: flex;
 	justify-content: space-between;
@@ -34,6 +37,10 @@
 	transition: color ease 0.3s;
 }
 .link__line i:hover {
+	color: #222f3e;
+}
+
+.link__line i:hover ~ span {
 	color: #222f3e;
 }
 .link__line span {
