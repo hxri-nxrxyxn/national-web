@@ -5,6 +5,12 @@
 	.mobile-hide {
 		display: none;
 	}
+	.header__main h1 {
+		font-size: 8rem !important;
+	}
+	.header__main img {
+		width: 6rem !important;
+	}
 	.aim__container {
 		flex-direction: column;
 	}
