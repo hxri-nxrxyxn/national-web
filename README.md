@@ -9,8 +9,8 @@ National Higher Secondary School, Irinjalakuda © 2022
 * Gokul Bro
 * Jayakrishnan Bro
 * Rohith Bro
-
-* Hari Narayan MR
+* Gokul Krishna V H
+* Hari Narayan M R
 * Athul S Menon
 * Syed Farhan
 
