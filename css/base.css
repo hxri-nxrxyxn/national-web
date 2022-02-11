@@ -15,7 +15,7 @@ html {
 	font-size: 10px;
 }
 body {
-	background-color: #c8d6e5;
+	background-color: #222f3e;
 }
 a {
 	text-decoration: none;
@@ -26,4 +26,8 @@ a {
 	height: auto;
 	margin: 0 auto;
 	position: relative;
+	transform: translateY(-10rem);
+	background: #c8d6e5;
+	padding: 0 5rem;
+	border-radius: 2rem;
 }
