@@ -11,6 +11,13 @@
 	.header__main img {
 		width: 6rem !important;
 	}
+	.everything {
+		max-width: 90vw !important;
+		padding: 0 3rem !important;
+	}
+	.page:first-child {
+		padding: 3rem 0 !important;
+	}
 	.aim__container {
 		flex-direction: column;
 	}
@@ -98,7 +105,12 @@
 	.administration__row{
 		display: block !important;
 	}
+	.administration__column {
+		height: 40rem;
+		width: 40rem;
+		margin: auto !important;
+	}
 	.administration__column:not(:last-child) {
-		margin-bottom: 5rem;
+		margin-bottom: 5rem !important;
 	}
 }
