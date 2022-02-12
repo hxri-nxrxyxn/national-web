@@ -37,9 +37,9 @@
 	position: relative;
 	display: inline-block;
 }
-.nav__dd--1:hover > .nav__dd-contents--1 {
+.nav__dd--1:hover  .nav__dd-contents--1 {
 	display: block;
-	animation:  appear 0.25s ease-in-out 0.001s;
+	animation: appear 0.25s ease-in-out 0.001s;
 }
 .nav__dd-contents--1 {
 	display: none;
@@ -56,8 +56,8 @@
 	background-position: center;
 	animation:  background-zoom 1s ease-in-out 0.2s;
 	padding: 5%;
-	border-bottom-left-radius: 3rem;
-	border-bottom-right-radius: 3rem;
+/*	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 3rem;*/
 }
 .header__main {
 	display: flex;
