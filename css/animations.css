@@ -1,0 +1,24 @@
+@keyframes scroll-up {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-10rem);
+	}
+}
+@keyframes scroll-down {
+	0% {
+		transform: translateY(-10rem);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+@keyframes background-zoom {
+	0% {
+		background-size: 110%;
+	}
+	100% {
+		background-size: 100%;
+	}
+}
