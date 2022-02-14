@@ -47,6 +47,21 @@
 	z-index: 1;
 }
 
+/*dropdown 2*/
+.nav__dd--2 {
+	position: relative;
+	display: inline-block;
+}
+.nav__dd--2:hover  .nav__dd-contents--2 {
+	display: block;
+	animation: appear 0.25s ease-in-out 0.001s;
+}
+.nav__dd-contents--2 {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
 
 /*header*/
 .header {
