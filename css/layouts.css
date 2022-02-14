@@ -29,7 +29,7 @@
 	transition: background-color ease 0.3s;
 }
 .header__nav--2 a:last-child:hover{
-	background-color: #576574;
+	background-color: #ff6b6b;
 }
 
 /*dropdown*/
