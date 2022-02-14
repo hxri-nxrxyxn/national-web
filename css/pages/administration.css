@@ -8,7 +8,7 @@
 }
 .administration__row {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	padding: 2rem 0;
 }
 .administration__row:last-child {
