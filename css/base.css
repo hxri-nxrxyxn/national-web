@@ -15,7 +15,7 @@ html {
 	font-size: 10px;
 }
 body {
-	background-color: #c8d6e5;
+	background-image: url(../img/bg-tile1.jpg);
 }
 a {
 	text-decoration: none;
@@ -27,6 +27,7 @@ a {
 	margin: 0 auto;
 	position: relative;
 	transform: translateY(-10rem);
+	animation:  scroll-up 1s ease-in-out 0.2s;
 	background: #c8d6e5;
 	padding: 0 5rem;
 	border-radius: 2rem;

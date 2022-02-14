@@ -3,6 +3,7 @@
 	width: 100%;
 	list-style: none;
 	background-color: transparent;
+	animation:  scroll-down 1s ease-in-out 0.2s;
 }
 .header__nav--1 {
 	float: left;
@@ -11,7 +12,7 @@
 .header__nav--2 {
 	float: right;
 }
-.header__nav a{
+.header__nav a {
 	color: #8395a7;
 	transition: color ease 0.3s;
 	margin-right: 1rem;
@@ -36,34 +37,11 @@
 	position: relative;
 	display: inline-block;
 }
-.nav__dd--1:hover .nav__dd-contents--1 {
+.nav__dd--1:hover  .nav__dd-contents--1 {
 	display: block;
+	animation: appear 0.25s ease-in-out 0.001s;
 }
 .nav__dd-contents--1 {
-	display: none;
-	position: absolute;
-	z-index: 1;
-}
-.nav__dd--2 {
-	position: relative;
-	display: inline-block;
-}
-.nav__dd--2:hover .nav__dd-contents--2 {
-	display: block;
-}
-.nav__dd-contents--2 {
-	display: none;
-	position: absolute;
-	z-index: 1;
-}
-.nav__dd--3 {
-	position: relative;
-	display: inline-block;
-}
-.nav__dd--3:hover .nav__dd-contents--3 {
-	display: block;
-}
-.nav__dd-contents--3 {
 	display: none;
 	position: absolute;
 	z-index: 1;
@@ -71,14 +49,16 @@
 
 /*header*/
 .header {
-	height: 105vh;
+	height: 80vh;
 	background-image: linear-gradient(#222f3edd,#222f3edd), url(../img/n1.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: left;
+	background-position: center;
+	animation:  background-zoom 1s ease-in-out 0.2s;
 	padding: 5%;
-	border-bottom-left-radius: 3rem;
-	border-bottom-right-radius: 3rem;
+	clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+/*	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 3rem;*/
 }
 .header__main {
 	display: flex;
@@ -101,8 +81,6 @@
 }
 
 /*footer*/
-.footer {
-}
 .footer p{
 	color: #576574;
 	max-width: 80vw;

@@ -11,6 +11,9 @@
 	justify-content: space-between;
 	padding: 2rem 0;
 }
+.administration__row:last-child {
+	justify-content: space-evenly;
+}
 .administration__column {
 	flex-basis: 30%;
 	padding: 2rem;

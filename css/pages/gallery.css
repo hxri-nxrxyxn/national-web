@@ -1,6 +1,6 @@
 /*gallery*/
 #gallery {
-	min-height: 100vh;
+	min-height: 80vh;
 }
 .gallery__container {
 	display: flex;
@@ -13,7 +13,9 @@
 .gallery__row {
 	display: flex;
 	justify-content: space-between;
-	padding: 5rem 0;
+}
+.gallery__row:not(:last-child) {
+	padding-bottom: 5rem;
 }
 .gallery__column {
 	border: 1px solid #8395a7;
