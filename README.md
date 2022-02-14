@@ -1,9 +1,10 @@
 # national-web
 National Higher Secondary School, Irinjalakuda © 2022 
 
-![removed-bg](https://user-images.githubusercontent.com/97329430/150669191-d4b0e78a-ff12-4c5f-bde8-b15f873a997d.png)
+![Screenshot 2022-02-14 at 12-23-10 National-modified](https://user-images.githubusercontent.com/97899995/153815743-2eacd23e-e828-4622-aabc-3cfccf07c643.png)
 
-# Credits
+# Credits!
+
 * Uma teacher
 * Robin Bro
 * Gokul Bro
