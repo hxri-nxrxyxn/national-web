@@ -14,21 +14,8 @@ html {
 	font-size: 10px;
 }
 body {
-	background-image: url(../img/bg-tile1.jpg);
+	background-image: url(../img/misc/tile.jpg);
 }
 a {
 	text-decoration: none;
-}
-
-.everything {
-	max-width: 80vw;
-	height: auto;
-	margin: 0 auto;
-	position: relative;
-	transform: translateY(-10rem);
-	animation:  scroll-up 1s ease-in-out 0.2s;
-	background: #c8d6e5;
-	padding: 0 5rem;
-	border-radius: 2rem;
-	border: 2px solid #8395a7;
 }
