@@ -23,7 +23,7 @@
 	border: 1px solid #8395a7;
 }
 .administration__column:hover img {
-	opacity: 1;
+	opacity: 1;`
 }
 .administration__column img {
 	border-radius: 50%;
@@ -40,6 +40,17 @@
 	text-align: center;
 }
 
+#administration__staff .administration__column {
+	flex-basis: 22.5%;
+}
+#administration__staff .administration__column p {
+	text-align: left;
+	font-size: 1.4rem;
+}
+#administration__staff .administration__column h2 {
+	text-align: left;
+	font-size: 3rem;
+}
 
 
 /*extra*/
