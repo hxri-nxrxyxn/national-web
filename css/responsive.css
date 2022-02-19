@@ -5,6 +5,9 @@
 	.mobile-hide {
 		display: none;
 	}
+	.header__nav a {
+		margin-right: 0.5rem !important;
+	}
 	.header__main h1 {
 		font-size: 8rem !important;
 	}
