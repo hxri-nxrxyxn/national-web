@@ -110,6 +110,14 @@
 		width: 40rem;
 		margin: auto !important;
 	}
+	.administration__column {
+	height: 40rem;
+	width: 40rem;
+	margin: auto !important;
+	}
+	#administration__staff .administration__column {
+	height: auto;
+	}
 	.administration__column:not(:last-child) {
 		margin-bottom: 5rem !important;
 	}
