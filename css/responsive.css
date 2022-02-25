@@ -7,6 +7,7 @@
 	}
 	.header__nav a {
 		margin-right: 0.5rem !important;
+		font-size: 1.25rem !important;
 	}
 	.header__main h1 {
 		font-size: 8rem !important;
@@ -112,6 +113,14 @@
 		height: 40rem;
 		width: 40rem;
 		margin: auto !important;
+	}
+	.administration__column {
+	height: auto !important;
+	width: auto !important;
+	margin: auto !important;
+	}
+	#administration__staff .administration__column {
+	height: auto;
 	}
 	.administration__column:not(:last-child) {
 		margin-bottom: 5rem !important;
