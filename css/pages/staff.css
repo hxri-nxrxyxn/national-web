@@ -19,17 +19,28 @@
 	padding: 2rem;
 }
 
+#staff__sinitr {
+	margin: auto;
+}
+
 .staff__container--sinitr {
 	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
+	justify-content: center;
 }
+
+.staff__container--sinitr p {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
 .staff__container--sinitr img {
+	transform: translate(50%, -25%);
 	height: 20rem;
 	width: 20rem;
+	float: right;
 	border-radius: 50%;
 	object-fit: cover;
-	margin-top: 2.5rem
 }
 
 /*extra*/
