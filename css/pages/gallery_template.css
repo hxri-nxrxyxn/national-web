@@ -15,24 +15,29 @@
 	padding: 0 0 5rem 0;
 }
 .gallery__column {
-	flex-basis: 47.5%;
+	flex-basis: 48%;
 	transition: all ease 0.3s;
-	background-color: #222f3e;
 	border-radius: 2rem;
 	height: auto;
 }
 .gallery__column:hover {
 	/*transform: scale(1.01);*/
 }
-.gallery__column img {
+.gallery__image {
+	background-color: #222f3e;
 	border-radius: 2rem;
+}
+.gallery__image:not(:last-child) {
+	margin-bottom: 5rem; 
+}
+.gallery__column img {
 	width: 100%;
-	height: 100%;
 	object-fit: cover;
 	opacity: 0.5;
-	transition: opacity ease 0.3s;
+	transition: opacity 0.3s ease;
+	border-radius: 2rem;
 }
-.gallery__column:hover img {
+.gallery__column img:hover {
 	opacity: 1;
 }
 
