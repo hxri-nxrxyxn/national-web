@@ -1,0 +1,14 @@
+/* Add a black background color to the top navigation */
+.nav__dd--1 {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.nav__dd--1 a {
+  display: block;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.nav__dd--1 .icon {
+  display: none;
+} 

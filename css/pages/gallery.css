@@ -43,6 +43,7 @@
 	background-image: url(../../img/misc/tile.jpg);
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
+	height: auto;
 }
 
 
