@@ -1,6 +1,3 @@
-#administration {
-	min-height: 100vh;
-}
 .administration__container {
 	display: flex;
 	justify-content: space-between;

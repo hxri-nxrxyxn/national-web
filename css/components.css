@@ -27,7 +27,7 @@
 .f__body--m1{
 	font-family: 'Merriweather';
 	font-size: 2rem;
-	letter-spacing: 0.25rem;
+	letter-spacing: 0.15rem;
 	color: #576574;
 	text-align: justify;
 }
@@ -41,7 +41,7 @@
 .f__button {
 	font-family: 'Montserrat';
 	font-size: 1.6rem;
-	letter-spacing: 0.5rem;	
+	letter-spacing: 0.35rem;	
 	text-transform: uppercase;
 	font-weight: 600;
 }
