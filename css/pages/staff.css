@@ -8,7 +8,6 @@
 	padding: 2rem 0;
 	justify-content: space-between;
 }
-
 .staff__row:last-child {
 	justify-content: space-around;
 }
@@ -18,27 +17,23 @@
 	flex-basis: 30%;
 	padding: 2rem;
 }
-
 #staff__sinitr {
 	margin: auto;
 }
-
 .staff__container--sinitr {
+	/*background: red;*/
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 45vh;
 }
-
-.staff__container--sinitr p {
-	margin-top: 5rem;
-	display: flex;
-	justify-content: center;
+.staff__container--sinitr p, .staff__container--sinitr h2 {
+	margin: auto;
 }
-
 .staff__container--sinitr img {
-	transform: translate(50%, -25%);
-	height: 20rem;
-	width: 20rem;
-	float: right;
+	height: 30rem;
+	width: 30rem;
+	margin: auto;
 	border-radius: 50%;
 	object-fit: cover;
 }
