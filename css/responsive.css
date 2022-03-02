@@ -127,8 +127,8 @@
 	}
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1080px) {
 	html {
-		font-size: 11rem;
+		font-size: 11px !important;
 	}
 }
