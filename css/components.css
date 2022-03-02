@@ -1,9 +1,9 @@
 /*fonts*/
 .f__headline--1 {
-	font-family: "DM Serif Display";
-    font-weight: 400;
-    font-style: normal;
-    line-height: initial;
+	font-family: 'Bebas Neue';
+ 	font-size: 7.3rem;
+ 	font-weight: 600;
+ 	letter-spacing: -0.5rem;
 }
 .f__headline--2 {
 	font-family: 'Bebas Neue';
@@ -52,10 +52,6 @@
 .heading {
 	color: #222f3eEE;
 	margin-bottom: 5rem 0;
-	font-family: 'Bebas Neue';
- 	font-size: 7.3rem;
- 	font-weight: 600;
- 	letter-spacing: -0.5rem;
 }
 .clearfix {
 	content: "";
