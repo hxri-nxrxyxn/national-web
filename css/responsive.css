@@ -1,13 +1,16 @@
 @media only screen and (max-width: 600px) {
 	html{
-		font-size: 5.5px !important;
+		font-size: 5px !important;
 	}
 	.mobile-hide {
 		display: none;
 	}
+	.header {
+		height: 60vh;
+	}
 	.header__nav a {
 		margin-right: 0.5rem !important;
-		font-size: 1.25rem !important;
+		font-size: 1rem !important;
 	}
 	.header__main h1 {
 		font-size: 8rem !important;
