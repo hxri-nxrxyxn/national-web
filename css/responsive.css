@@ -128,7 +128,7 @@
 }
 
 @media only screen and (min-width: 1600px) {
-	body {
-		transform: scale(1.2);
+	html {
+		font-size: 9rem;
 	}
 }
