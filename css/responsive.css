@@ -127,9 +127,15 @@
 	}
 }
 
+@media only screen and (max-width: 1366px) {
+	html {
+		font-size: 8px !important;
+	}
+}
+
 @media only screen and (max-width: 1920px) {
 	html {
-		font-size: 11px !important;
+		font-size: 10px !important;
 	}
 	.f__headline--1 {
 		letter-spacing: 1px !important;
