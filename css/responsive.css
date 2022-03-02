@@ -59,7 +59,7 @@
 		padding: 0 !important;
 	}
 	.gallery__column img {
-		opacity: 1;
+		opacity: 1 !important;
 	}
 	.gallery__column:not(:last-child) {
 		margin-bottom: 5rem !important;
