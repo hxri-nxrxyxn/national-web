@@ -60,6 +60,7 @@
 	}
 	.gallery__column img {
 		opacity: 1 !important;
+		height: 20rem !important;
 	}
 	.gallery__column:not(:last-child) {
 		margin-bottom: 5rem !important;
