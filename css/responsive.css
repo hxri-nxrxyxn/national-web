@@ -127,8 +127,14 @@
 	}
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1080px) {
 	html {
-		font-size: 11em;
+		font-size: 11px !important;
+	}
+	.f__headline--1 {
+		letter-spacing: 1px !important;
+	}
+	.f__body--m1 {
+		letter-spacing: 0 !important;
 	}
 }
