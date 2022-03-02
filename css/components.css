@@ -2,7 +2,7 @@
 .f__headline--1 {
 	font-family: 'Bebas Neue';
  	font-size: 7.3rem;
- 	letter-spacing: 0.25rem;
+ 	letter-spacing: -0.25rem;
 }
 .f__headline--2 {
 	font-family: 'Bebas Neue';
@@ -41,7 +41,7 @@
 .f__button {
 	font-family: 'Montserrat';
 	font-size: 1.6rem;
-	letter-spacing: 0.35rem;	
+	letter-spacing: 0.15rem;	
 	text-transform: uppercase;
 	font-weight: 600;
 }
