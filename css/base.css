@@ -1,6 +1,6 @@
 /*root*/
 ::selection {
-	background-color: transparent;
+	background-color: #ffffff75;
 	color: #333;
 }
 /*others*/
@@ -12,9 +12,14 @@
 }
 html {
 	font-size: 8.5px;
+	font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
 }
 body {
 	background-image: url(../img/misc/tile.jpg);
+	text-shadow:1px 1px 1px rgba(0,0,0,0.004) !important;
 }
 a {
 	text-decoration: none;

@@ -131,4 +131,10 @@
 	html {
 		font-size: 11px !important;
 	}
+	.f__headline--1 {
+		letter-spacing: 1px !important;
+	}
+	.f__body--m1 {
+		letter-spacing: 0 !important;
+	}
 }
