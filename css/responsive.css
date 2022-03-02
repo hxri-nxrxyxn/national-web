@@ -58,6 +58,9 @@
 	.gallery__row:last-child {
 		padding: 0 !important;
 	}
+	.gallery__column img {
+		opacity: 1;
+	}
 	.gallery__column:not(:last-child) {
 		margin-bottom: 5rem !important;
 	}
