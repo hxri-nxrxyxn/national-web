@@ -1,13 +1,16 @@
 @media only screen and (max-width: 600px) {
 	html{
-		font-size: 7px !important;
+		font-size: 5px !important;
 	}
 	.mobile-hide {
 		display: none;
 	}
+	.header {
+		height: 60vh;
+	}
 	.header__nav a {
 		margin-right: 0.5rem !important;
-		font-size: 1.25rem !important;
+		font-size: 1rem !important;
 	}
 	.header__main h1 {
 		font-size: 8rem !important;
@@ -54,6 +57,9 @@
 	}
 	.gallery__row:last-child {
 		padding: 0 !important;
+	}
+	.gallery__column img {
+		opacity: 1 !important;
 	}
 	.gallery__column:not(:last-child) {
 		margin-bottom: 5rem !important;
@@ -127,9 +133,15 @@
 	}
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (max-width: 1366px) {
 	html {
-		font-size: 11px !important;
+		font-size: 7px !important;
+	}
+}
+
+@media only screen and (max-width: 1920px) {
+	html {
+		font-size: 10px !important;
 	}
 	.f__headline--1 {
 		letter-spacing: 1px !important;
