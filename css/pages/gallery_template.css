@@ -2,7 +2,7 @@
 #gallery {
 	min-height: 100vh;
 }
-.gallery__container {
+.gallery_template__container {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
