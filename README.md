@@ -17,6 +17,7 @@ National Higher Secondary School, Irinjalakuda © 2022
 
 ## Structure
 
+```
 .
 ├── administration.html
 ├── alumni.html
@@ -143,3 +144,9 @@ National Higher Secondary School, Irinjalakuda © 2022
 └── tree.txt
 
 12 directories, 111 files
+```
+
+## Contribute
+```sh
+git clone https://github.com/hxri-nxrxyxn/national-web.git
+```
