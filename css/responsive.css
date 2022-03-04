@@ -94,6 +94,10 @@
 	.staff__container--sinitr {
 		display: block;
 	}
+	.staff__container--sinitr img {
+		width: 15rem !important;
+		height: 15rem !important;
+	}
 	.link__container {
 		display: block;
 	}
@@ -141,9 +145,12 @@
 
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1366){
 	html {
 		font-size: 7px !important;
+	}
+	.header__nav a {
+		font-size: 1.2rem !important;
 	}
 }
 
