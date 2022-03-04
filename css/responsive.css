@@ -71,6 +71,9 @@
 	.gallery__column:not(:last-child) {
 		margin-bottom: 5rem !important;
 	}
+	.gallery-t__column:not(:last-child) {
+		margin-bottom: 5rem !important;
+	}
 	.f__headline--1 {
 		letter-spacing: 0px !important;
 	}
