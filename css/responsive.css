@@ -138,9 +138,12 @@
 
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1366){
 	html {
 		font-size: 7px !important;
+	}
+	.header__nav a {
+		font-size: 1.2rem !important;
 	}
 }
 
