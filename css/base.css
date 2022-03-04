@@ -11,10 +11,15 @@
 	scroll-behavior: smooth;
 }
 html {
-	font-size: 8.5px;
+	font-size: 7px;
+	font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
 }
 body {
 	background-image: url(../img/misc/tile.jpg);
+	text-shadow:1px 1px 1px rgba(0,0,0,0.004) !important;
 }
 a {
 	text-decoration: none;

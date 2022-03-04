@@ -3,7 +3,7 @@
 	width: 100%;
 	list-style: none;
 	background-color: transparent;
-	animation:  scroll-down 1s ease-in-out 0.2s;
+	animation:  scroll 1s ease-in-out 0.2s;
 }
 .header__nav--1 {
 	float: left;
