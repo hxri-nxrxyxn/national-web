@@ -58,6 +58,9 @@
 	.gallery__row:last-child {
 		padding: 0 !important;
 	}
+	.gallery__column-t img {
+		opacity: 1 !important;
+	}
 	.gallery__column img {
 		opacity: 1 !important;
 		height: 20rem !important;
