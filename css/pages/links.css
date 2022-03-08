@@ -13,7 +13,8 @@
 }
 .link__row--1 .link__column {
 	padding: 2rem;
-	/*columns: 2;*/
+	width: 100%;
+/*	columns: 2;*/
 }
 .link__row--2 {
 	padding: 2rem;
@@ -25,6 +26,9 @@
 .link__row--2 .link__columns .link__column {
 	flex-basis: 30%;
 }
+/*.link__row--2 .link__columns .link__column:nth-child(2) {
+	flex-basis: 40%
+}*/
 .link__line {
 	display: flex;
 	justify-content: center;
