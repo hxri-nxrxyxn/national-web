@@ -25,9 +25,13 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	min-height: 45vh;
+	min-height: 70vh;
 }
-.staff__container--sinitr p, .staff__container--sinitr h2 {
+.staff__container--sinitr p {
+	margin: auto;
+	text-align: center;
+}
+.staff__container--sinitr h2 {
 	margin: auto;
 }
 .staff__container--sinitr img {
