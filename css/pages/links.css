@@ -12,8 +12,9 @@
 	margin-bottom: 5rem;
 }
 .link__row--1 .link__column {
-	flex-basis: 45%;
 	padding: 2rem;
+	width: 100%;
+/*	columns: 2;*/
 }
 .link__row--2 {
 	padding: 2rem;
@@ -23,8 +24,11 @@
 	justify-content: space-between;
 }
 .link__row--2 .link__columns .link__column {
-	flex-basis: 45%;
+	flex-basis: 30%;
 }
+/*.link__row--2 .link__columns .link__column:nth-child(2) {
+	flex-basis: 40%
+}*/
 .link__line {
 	display: flex;
 	justify-content: center;
