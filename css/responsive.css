@@ -112,7 +112,10 @@
 		margin-bottom: 0 !important;
 	}
 	.link__row--1 .link__column {
-		margin-bottom: 5rem;
+		margin-bottom: 2rem !important;
+	}
+	.link__row--2 .link__column--main {
+		margin-bottom: 2rem !important;
 	}
 	.link__row--2 .link__column:not(:last-child) {
 		margin: 2rem 0;	

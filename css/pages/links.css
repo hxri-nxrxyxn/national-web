@@ -21,7 +21,7 @@
 .link__row--2 .link__columns{
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 1rem;
+/*	padding-bottom: 1rem;*/
 }
 .link__row--2 .link__columns .link__column--main {
 	display: flex;
