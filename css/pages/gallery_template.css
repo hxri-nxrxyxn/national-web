@@ -20,9 +20,6 @@
 	border-radius: 2rem;
 	height: auto;
 }
-.gallery-t__column:hover {
-	/*transform: scale(1.01);*/
-}
 .gallery-t__image {
 	background-color: #222f3e;
 	border-radius: 2rem;
